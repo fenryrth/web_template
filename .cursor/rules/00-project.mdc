@@ -1,0 +1,9 @@
+---
+description: Canonical project instructions and AI handoff rules
+globs:
+alwaysApply: true
+---
+
+Read and follow @AGENTS.md before substantial work.
+
+Project facts and current state belong in the canonical Markdown files referenced by `AGENTS.md`, not in Cursor-specific rules.
