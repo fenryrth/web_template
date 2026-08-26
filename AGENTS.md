@@ -55,6 +55,51 @@ The human user is the director; the agent is responsible for implementation.
 - Never expose or commit secrets.
 - Never perform destructive remote operations, force pushes, production deployment, purchases, or domain/DNS changes unless explicitly authorized.
 
+## Clarification policy
+
+Before substantial work, determine whether the user's brief contains enough information to proceed confidently.
+
+Do not ask questions merely to be thorough. The default behavior is to proceed autonomously when a reasonable, reversible choice can be made.
+
+Proceed without clarification when:
+
+- the missing detail is minor,
+- a strong conventional default exists,
+- the choice is easy to reverse,
+- the decision does not materially affect product direction,
+- or the missing information can safely remain `TBD` while other work continues.
+
+Ask the user before proceeding when missing information could materially affect:
+
+- project purpose,
+- target audience,
+- primary conversion or call to action,
+- scope,
+- brand or art direction,
+- content strategy,
+- major architecture or platform choice,
+- paid services or ongoing cost,
+- legal/privacy requirements,
+- data ownership or handling,
+- deployment ownership,
+- or another difficult-to-reverse decision.
+
+Distinguish between **blocking** and **non-blocking** unknowns:
+
+- A blocking unknown prevents responsible progress or could send the project in the wrong direction. Ask about it before substantial implementation.
+- A non-blocking unknown can be marked `TBD`, handled with a documented default, or deferred while useful work continues.
+
+When clarification is necessary:
+
+- ask only the smallest useful set of questions,
+- normally ask no more than 3–5 questions at once,
+- prioritize questions by their impact on the project,
+- provide a recommended default when that helps the user decide,
+- do not ask the user to choose ordinary implementation details the agent can responsibly decide,
+- and do not repeat questions already answered in the prompt, repository, or current conversation.
+
+After receiving enough information to remove the blocking uncertainty, proceed autonomously. Do not turn the project into an unnecessary interview process.
+
 ## Design and implementation rules
 
 For websites and landing pages:
