@@ -67,7 +67,7 @@ Proceed without clarification when:
 - a strong conventional default exists,
 - the choice is easy to reverse,
 - the decision does not materially affect product direction,
-- or the missing information can safely remain `TBD` while other work continues.
+- or the missing information can safely remain unresolved as `[TODO]` while other work continues.
 
 Ask the user before proceeding when missing information could materially affect:
 
@@ -87,7 +87,7 @@ Ask the user before proceeding when missing information could materially affect:
 Distinguish between **blocking** and **non-blocking** unknowns:
 
 - A blocking unknown prevents responsible progress or could send the project in the wrong direction. Ask about it before substantial implementation.
-- A non-blocking unknown can be marked `TBD`, handled with a documented default, or deferred while useful work continues.
+- A non-blocking unknown can be marked `[TODO]`, handled with a documented default, or deferred while useful work continues.
 
 When clarification is necessary:
 
